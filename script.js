@@ -47,6 +47,7 @@ const calculateBill = () => {
 
   // update the perPersonTotal on DOM & show it to user
   perPersonTotalDiv.innerText = `$${perPersonTotal.toFixed(2)}`
+  //perPersonTotalDiv.innerText = `$${perPersonTotal.toLocaleString('en-US')}`
 }
 
 // ** Splits the bill between more people **
